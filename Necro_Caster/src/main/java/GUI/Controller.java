@@ -519,10 +519,11 @@ public class Controller implements KeyListener{
 
         
         try {
+            // WILL NEED TO CHANGE FOLLOWING conn TO CONNECT TO YOUR LOCAL MYSQL DB
             conn = 
                 DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/rpg?zeroDateTimeBehavior=CONVERT_TO_NULL",
-                            "root","Hunterone12Backstroke133");
+                            "root","67J$W5AG6m7T");
             statStmt = conn.createStatement();
             mainStmt = conn.createStatement();
             equipStmt = conn.createStatement();
